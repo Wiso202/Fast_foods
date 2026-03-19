@@ -10,18 +10,25 @@
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="logo">FLEXI<span>RESTO</span></div>
-        
-        <ul class="nav-links">
-            <li><a href="index.html" class="active">Accueil</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="galerie.html">Galerie</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+   <nav class="navbar">
+    <div class="logo">FLEXI<span>RESTO</span></div>
+    
+    <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
 
-        <a href="reservation.html" class="btn-primary" style="padding: 10px 20px; font-size: 0.8rem;">Réserver</a>
-    </nav>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="reservation.html" class="btn-primary mobile-reserve">Réserver</a></li>
+    </ul>
+
+    <a href="reservation.html" class="btn-primary nav-desktop-btn">Réserver</a>
+</nav>
 
     <header class="hero" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/img/hero-bg.jpg') no-repeat center/cover;">
         <div class="content animate__animated animate__fadeIn">
