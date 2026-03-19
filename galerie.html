@@ -9,15 +9,24 @@
 <body>
 
     <nav class="navbar">
-        <a href="index.html" class="logo">FLEXI<span>RESTO</span></a>
-        <ul class="nav-links">
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="galerie.html" class="active">Galerie</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <a href="reservation.html" class="btn-primary">Réserver</a>
-    </nav>
+    <div class="logo">FLEXI<span>RESTO</span></div>
+    
+    <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="reservation.html" class="btn-primary mobile-reserve">Réserver</a></li>
+    </ul>
+
+    <a href="reservation.html" class="btn-primary nav-desktop-btn">Réserver</a>
+</nav>
 
     <header class="hero" style="height: 35vh; background: var(--section-alt);">
         <div class="content">
